@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
 import Products from './components/Products';
+import Gallery from './components/Gallery';
 import Benefits from './components/Benefits';
 import Certification from './components/Certification';
 import Testimonials from './components/Testimonials';
@@ -18,9 +19,10 @@ function App() {
       <Hero />
       <About />
       <Products />
-      <Benefits />
-      <Certification />
-      <Testimonials />
+      <Gallery />
+      {/* <Benefits />
+      <Certification /> */}
+      {/* <Testimonials /> */}
       <Contact />
       <Footer />
     </div>
